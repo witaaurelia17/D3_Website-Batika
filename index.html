@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Batika Bag</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="assets/img/favicon-batika.png">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+  :root {
+    --batika-taupe: #6d574c;
+    --batika-taupe-dark: #514037;
+    --batika-taupe-light: #f2ebe6;
+
+    --background-color: #ffffff;
+    --default-color: #4a3c35;
+    --heading-color: #3d2f29;
+    --accent-color: var(--batika-taupe);
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+    --nav-color: #59473e;
+    --nav-hover-color: var(--batika-taupe);
+  }
+
+  #header {
+    --background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  #hero,
+  #contact {
+    --background-color: var(--batika-taupe-light);
+  }
+
+  #hero a.btn-primary,
+  #contact button[type="submit"],
+  #scroll-top {
+    background-color: var(--batika-taupe);
+    border-color: var(--batika-taupe);
+    color: #ffffff;
+  }
+
+  #hero a.btn-primary:hover,
+  #contact button[type="submit"]:hover,
+  #scroll-top:hover {
+    background-color: var(--batika-taupe-dark);
+    border-color: var(--batika-taupe-dark);
+  }
+
+  #footer {
+    --background-color: var(--batika-taupe-dark);
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --accent-color: #e6d6cc;
+    --surface-color: #625047;
+  }
+  #hero .hero-stats .stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  #navmenu > ul > li > a.active {
+  text-decoration: underline;
+  text-decoration-color: var(--batika-taupe, #6d574c);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+</style>
+
+  <!-- =======================================================
+  * Template Name: Batika
+  * Template URL: https://bootstrapmade.com/Batika-bootstrap-corporate-template/
+  * Updated: Sep 13 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  <img src="assets/img/Logo Batika.jpeg" alt="Batika Bag"
+     style="display: block; width: auto; height: 44px; max-height: none;">
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <img src="assets/img/Logo Batika.jpeg" alt="Batika Bag"
+     style="display: block; width: auto; height: 44px; max-height: none;">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#about">Profil Singkat</a></li>
+          <li><a href="#why-us">Tentang Kami</a></li>
+          <li><a href="#portfolio">Produk</a></li>
+          <li><a href="#team">Struktur Organisasi</a></li>
+          <li><a href="#contact">Kritik & Saran</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">Tas Batik Tulis Eksklusif</h1>
+              <p data-aos="fade-up" data-aos-delay="300" style="text-align: justify;">Kriya batik tulis handmade dari Yogyakarta &amp; membawa warisan adiluhung Nusantara menjadi bagian istimewa dari perjalanan hari ini.</p>
+              <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://api.whatsapp.com/send/?phone=%2B6285800288414&text=Halo+Admin+Batika&type=phone_number&app_absent=0" class="btn-primary">Pesan via WhatsApp</a>
+              </div>
+              <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+                <div class="stat-item">
+                  <div class="stat-number">8</div>
+                  <div class="stat-label">Tahun Berdiri</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">98%</div>
+                  <div class="stat-label">Pelanggan Bahagia</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">300+</div>
+                  <div class="stat-label">Produk Terjual</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="Beranda" data-aos="fade-left" data-aos-delay="300">
+              <img src="assets/img/Beranda.webp" alt="" class="img-fluid">
+              <div class="floating-card" data-aos="zoom-in" data-aos-delay="600">
+                <div class="card-icon">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Batika Bag</span>
+        <h2>Profil Singkat</h2>
+        <p>Batika Bag adalah UMKM asal Yogyakarta yang berfokus pada tas batik. Berdiri sejak 2018, Batika Bag menawarkan berbagai pilihan tas bermotif batik untuk kebutuhan sehari-hari maupun sebagai suvenir.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="content">
+              <h2>Awal Mula Berdiri</h2>
+              <p class="lead" style="text-align: justify;">Batika Bag adalah usaha kerajinan tas batik asal Yogyakarta yang berdiri pada tahun 2018. Usaha ini didirikan oleh Anindiya Satya Nugraha bersama kakaknya. Keduanya menjadikan tas batik sebagai salah satu produk utama Batika Bag.</p>
+
+              <p style="text-align: justify;">Batika Bag menghadirkan motif batik dalam berbagai bentuk dan ukuran tas. Beberapa model dalam koleksinya adalah Agnia, Pramesti Besar, dan Santika Besar. Model Agnia, misalnya, tersedia dalam beberapa pilihan motif sehingga pelanggan bisa memilih corak yang sesuai dengan selera mereka.</p>
+
+              <p style="text-align: justify;">Tas batik Batika Bag dapat digunakan untuk kegiatan sehari-hari maupun acara tertentu. Pilihan ukuran membantu pelanggan menyesuaikan tas dengan barang yang ingin dibawa. Pelanggan dapat melihat foto, pilihan motif, dan keterangan tiap model di bagian Produk.</p>
+
+              <div class="stats-row">
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Tahun Berdiri</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Model Tas</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Pelanggan Puas</div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="image-wrapper">
+              <img src="assets/img/Sejarah Batika.webp" alt="" class="img-fluid">
+              <div class="floating-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="card-content">
+                  <div class="icon">
+                    <i class="bi bi-award"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Pencapaian</h4>
+                    <p>Terpilih sebagai salah satu dari 50 UMKM dalam Master Class Festival UMKM kumparan 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Nilai Batika</span>
+        <h2>Nilai yang Kami Pegang</h2>
+        <p>Di Batika Bag, kami memperhatikan pilihan bahan, cara setiap tas dibuat, dan kemasan yang kami gunakan. Kami juga mendukung perajin perempuan di Yogyakarta untuk terus mengembangkan keterampilannya.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="content">
+              <h2>Di Balik Tas Batik Kami</h2>
+              <p style="text-align: justify;">Motif batik menjadi ciri khas koleksi kami. Pada beberapa model, kain batik dipadukan dengan kulit untuk memberi aksen pada desain tas. Setiap tas dikerjakan dengan tangan dan memperhatikan detail pengerjaannya.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="image-wrapper">
+              <img src="assets/img/Nilai Batika.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <div class="features-grid" data-aos="fade-up" data-aos-delay="400">
+          <div class="row g-5">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Bahan Pilihan</h3>
+                  <p style="text-align: justify;">Kami menggunakan kain batik pilihan sebagai bahan utama tas. Pada model tertentu, kami memadukan kain batik dengan kulit asli dari perajin lokal. Perpaduan ini menonjolkan corak batik sekaligus memberi aksen pada desain tas.</p>
+                </div>
+              </div>
+            </div><!-- End Feature Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Buatan Tangan</h3>
+                  <p style="text-align: justify;">Setiap tas Batika dikerjakan dengan tangan. Kami memperhatikan penempatan motif batik saat menyusun bagian-bagian tas. Ketelitian ini juga kami jaga saat menjahit dan menyelesaikan setiap tas.</p>
+                </div>
+              </div>
+            </div><!-- End Feature Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Kemasan Pakai Ulang</h3>
+                  <p style="text-align: justify;">Kami mengganti kantong pelindung berbahan spunbond dengan tas jinjing yang bisa dipakai kembali. Tas jinjing ini berfungsi sebagai kemasan saat produk diserahkan kepada pelanggan. Setelahnya, pelanggan bisa menggunakannya untuk membawa barang sehari-hari.</p>
+                </div>
+              </div>
+            </div><!-- End Feature Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Dukungan untuk Pengrajin Perempuan</h3>
+                  <p style="text-align: justify;">Kami mendukung perajin perempuan di Yogyakarta untuk terus berkarya. Melalui kegiatan kerajinan, para perajin mendapat ruang untuk mengembangkan keterampilannya. Keterampilan tersebut juga dapat membuka peluang penghasilan bagi mereka.</p>
+                </div>
+              </div>
+            </div><!-- End Feature Item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Produk</span>
+        <h2>Koleksi Batika Bag</h2>
+        <p>Temukan koleksi tas batik dari Batika Bag. Kami menawarkan tas ransel, tas kulit, dan tas sintetis dengan pilihan motif batik. Pilih tas yang sesuai dengan gaya dan kebutuhanmu!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">Semua Pilihan</li>
+            <li data-filter=".filter-design">Tas Sintetis</li>
+            <li data-filter=".filter-development">Tas Kulit</li>
+            <li data-filter=".filter-strategy">Tas Tenun</li>
+            <li data-filter=".filter-consulting">Pouch</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-5 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-design">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="project-visual">
+                      <img src="assets/img/Tas Anyelir.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Tas Anyelir.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Tas Sintetis</span>
+                        <time class="project-year">Rp244.000</time>
+                      </div>
+                      <h3 class="project-title">Tas Anyelir</h3>
+                      <p class="project-description">Tas Anyelir memadukan batik cap premium bercorak putih di atas dasar biru tua dengan aksen kulit sintetis. Bagian dalamnya dilapisi sintex, dan tas ini dilengkapi aksesori nikel. Pegangan dan tali panjang memungkinkan tas dijinjing atau diselempangkan.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Tas</span>
+                        <div class="project-scope">
+                          <span class="scope-item">32</span>
+                          <span class="scope-item">x 9</span>
+                          <span class="scope-item">x 23 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-development">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6 order-md-2">
+                    <div class="project-visual">
+                      <img src="assets/img/Tas Kenes.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Tas Kenes.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 order-md-1">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Tas Kulit</span>
+                        <time class="project-year">Rp650.000</time>
+                      </div>
+                      <h3 class="project-title">Tas Kenes</h3>
+                      <p class="project-description" style="text-align: justify;">	Tas Kenes memadukan kulit asli dengan batik cap bermotif wayang. Bagian dalamnya menggunakan lapisan suede, sementara bagian luarnya dilengkapi aksesori logam bakar. Tas ini memiliki pegangan tangan dan tali panjang.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Tas</span>
+                        <div class="project-scope">
+                          <span class="scope-item">30</span>
+                          <span class="scope-item">x  13</span>
+                          <span class="scope-item">x  21 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-strategy">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="project-visual">
+                      <img src="assets/img/Tas Parasut Motif Batik.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Tas Parasut Motif Batik.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Tas Tenun</span>
+                        <time class="project-year">Rp210.000</time>
+                      </div>
+                      <h3 class="project-title">Tas Parasut Motif Batik</h3>
+                      <p class="project-description" style="text-align: justify;">Tas Batika ini berbahan parasut crinkle dengan aksen motif batik di bagian depan. Warna biru tua pada badan tas dipadukan dengan corak biru dan putih. Pegangan yang panjang memungkinkan tas dijinjing atau dibawa di bahu.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Tas</span>
+                        <div class="project-scope">
+                          <span class="scope-item">22</span>
+                          <span class="scope-item">x 15</span>
+                          <span class="scope-item">x 40 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-consulting">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6 order-md-2">
+                    <div class="project-visual">
+                      <img src="assets/img/Pouch Kosmetik.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Pouch Kosmetik.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 order-md-1">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Pouch</span>
+                        <time class="project-year">Rp55.000</time>
+                      </div>
+                      <h3 class="project-title">Pouch Kosmetik Batika</h3>
+                      <p class="project-description" style="text-align: justify;">Pouch kosmetik Batika tersedia dalam pilihan bahan batik cap atau tenun Troso dengan lapisan dalam sintex. Pouch ini dilengkapi ritsleting dan tali pendek agar mudah dibawa. Gunakan untuk menyimpan kosmetik atau barang kecil agar mudah ditemukan di dalam tas.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Pouch</span>
+                        <div class="project-scope">
+                          <span class="scope-item">21</span>
+                          <span class="scope-item">x 5,5</span>
+                          <span class="scope-item">x 15 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-design">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="project-visual">
+                      <img src="assets/img/Tas Agnia.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Tas Agnia.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Tas Sintetis</span>
+                        <time class="project-year">Rp294.000</time>
+                      </div>
+                      <h3 class="project-title">Tas Agnia</h3>
+                      <p class="project-description" style="text-align: justify;">Tas Agnia memadukan kulit sintetis dengan pilihan kain batik cap premium atau tenun. Bagian dalamnya dilapisi sintex dan bagian luarnya dihiasi aksesori logam bakar. Tali panjangnya menggabungkan kulit sintetis dan rantai, sehingga tas bisa dikenakan sebagai tas selempang.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Tas</span>
+                        <div class="project-scope">
+                          <span class="scope-item">23</span>
+                          <span class="scope-item">x 10</span>
+                          <span class="scope-item">x 15 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 portfolio-item isotope-item filter-development">
+              <article class="portfolio-card">
+                <div class="row g-4">
+                  <div class="col-md-6 order-md-2">
+                    <div class="project-visual">
+                      <img src="assets/img/Tas Gendhis.jpg" alt="" class="img-fluid" loading="lazy">
+                      <div class="project-overlay">
+                        <div class="overlay-content">
+                          <a href="assets/img/Tas Gendhis.jpg" class="view-project glightbox" aria-label="View project image">
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          <a href="#" class="project-link" aria-label="View project details">
+                            <i class="bi bi-arrow-up-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 order-md-1">
+                    <div class="project-details">
+                      <div class="project-header">
+                        <span class="project-category">Tas Kulit</span>
+                        <time class="project-year">Rp650.000</time>
+                      </div>
+                      <h3 class="project-title">Tas Gendhis</h3>
+                      <p class="project-description" style="text-align: justify;">Tas Gendhis memadukan kulit sapi dengan batik cap bermotif bunga. Bagian dalamnya dilapisi suede dan bagian luarnya dilengkapi aksesori logam bakar. Tas ini memiliki pegangan pendek dan tali panjang, sehingga bisa dijinjing atau diselempangkan.</p>
+                      <div class="project-meta">
+                        <span class="client-name">Ukuran Tas</span>
+                        <div class="project-scope">
+                          <span class="scope-item">27</span>
+                          <span class="scope-item">x 14</span>
+                          <span class="scope-item">x 20 cm</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div><!-- End Portfolio Items Container -->
+
+        </div>
+
+        <div class="portfolio-conclusion" data-aos="fade-up" data-aos-delay="400">
+          <div class="conclusion-content">
+            <h4>Siap Belanja Tas Batik?</h4>
+            <p>Jelajahi koleksi tas dan pouch Batika Bag, lalu pilih model dan motif favoritmu. Sudah menemukan pilihanmu? Hubungi kami untuk cek stok dan melakukan pemesanan.</p>
+            <div class="conclusion-actions">
+              <a href="https://wa.me/6285800288414"
+                  class="primary-action" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                   Pesan via WhatsApp
+                </a>
+
+              <a href="https://shopee.co.id/batikabag#product_list"
+                  class="primary-action" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-bag" aria-hidden="true"></i>
+                  Belanja di Shopee
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Organisasi</span>
+        <h2>Struktur Organisasi</h2>
+        <p>Batika Bag dikelola oleh pemilik bersama tim dengan tanggung jawab yang berbeda. Setiap bagian mendukung kegiatan usaha, mulai dari pengelolaan pesanan hingga pemeriksaan dan pengemasan produk. Kenali jabatan dan peran masing-masing bagian di bawah ini.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+  <img
+    src="assets/img/Struktur_Organisasi_Batika_Bag.png"
+    class="img-fluid d-block mx-auto"
+    style="width: 100%; max-width: 1200px; height: auto;"
+    alt="Struktur organisasi Batika Bag. Owner membawahi Admin, Finance, Content Creator, dan Quality Control."
+  >
+</div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Testimoni</span>
+        <h2>Apa Kata Pelanggan Kami?</h2>
+        <p style="text-align: justify;">Simak pengalaman pelanggan yang telah memilih tas dan pouch dari Batika Bag. Ulasan mereka memberi gambaran tentang motif, bahan, dan penggunaan produk. Cerita ini bisa membantu kamu memilih produk yang sesuai dengan kebutuhanmu.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonial-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 4000
+              },
+              "slidesPerView": 1,
+              "spaceBetween": 30,
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "breakpoints": {
+                "768": {
+                  "slidesPerView": 2
+                },
+                "1200": {
+                  "slidesPerView": 3
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial Slide 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="testimonial-header">
+                  <img src="assets/img/person/person-f-12.webp" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Pelayanan ramah, limited edition, payung batik ini cocok banget jadi souvenir eksklusif. Pokoknya puas banget.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Nandyan Ayu</h5>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="testimonial-header">
+                  <img src="assets/img/person/person-m-8.webp" alt="Client" class="Beranda" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Salah satu toko yang wajib dikunjungi untuk membeli oleh" khas Jogja. Pelayanan sangat ramah, mas" yg jaga juga sangat informatif dalam memaparkan informasi produk tas yang dijual.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Melky Sucandra</h5>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="testimonial-header">
+                  <img src="assets/img/person/person-f-6.webp" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Sudah sering belanja onlinenya di Batika Bag, tasnya keren2, admin juga gercep.
+Daripada beli yg KW2 yuk beli produk asli dalam negeri.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Kristina Evania</h5>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="testimonial-header">
+                  <img src="assets/img/person/person-m-12.webp" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>belanja tas batik, di BATIKA aja deh, motifnya bagus2, bahannya bagus, kualitas barang gak diragukan lagi deh, manteeeebb puooooll…</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Andree Adrian</h5>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+            <!-- Testimonial Slide 5 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="600">
+                <div class="testimonial-header">
+                  <img src="assets/img/person/person-f-10.webp" alt="Client" class="img-fluid" loading="lazy">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>One of the high quality batik store in Yogyakarta. There is have so many variation of tenun and batik bag. Its really fashionable and trendy.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <h5>Arifa Safinatunnaja Fadhila</h5>
+                  <div class="quote-icon">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Slide -->
+
+          </div>
+
+          <div class="swiper-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Kritik & Saran</span>
+        <h2>Bantu Kami Jadi Lebih Baik</h2>
+        <p>Bagikan pengalaman Anda saat memilih atau membeli produk Batika. Kritik dan saran Anda membantu kami meningkatkan kualitas produk dan pelayanan.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-chat-dots"></i>
+              </div>
+              <div class="info-content">
+                <h4>Apa yang Bisa Kami Perbaiki?</h4>
+                <p style="text-align: justify;">Anda bisa memberi masukan tentang pilihan motif, ukuran tas, kualitas jahitan, atau proses pemesanan. Ceritakan bagian yang perlu diperbaiki agar kami bisa menindaklanjutinya.</p>
+              </div>
+            </div>
+
+            <div class="contact-details">
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Email</span>
+                  <span class="detail-value">butikbareng@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-telephone-outbound"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Telepon Kita</span>
+                  <span class="detail-value">+6285800288414</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Kunjungi Kami</span>
+                  <span class="detail-value">Jl. Matraman No.4-24, Nanggulan, Maguwoharjo, Kec. Depok, Kabupaten Sleman<br>Daerah Istimewa Yogyakarta 55281</span>
+                  <div class="mt-3">
+  <iframe
+    title="Peta lokasi Batika Bag"
+    src="https://maps.google.com/maps?q=Jl.+Matraman+No.+4-24,+Nanggulan,+Maguwoharjo,+Depok,+Sleman,+Yogyakarta+55281&amp;z=17&amp;output=embed"
+    width="100%"
+    height="280"
+    style="display: block; border: 0; border-radius: 12px;"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+
+  <a
+    class="d-inline-block mt-3 fw-semibold"
+    href="https://maps.app.goo.gl/Xc581vvakp84rCkS8"
+    target="_blank"
+    rel="noopener noreferrer">
+    Lihat Petunjuk Arah di Google Maps ↗
+  </a>
+</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-7">
+            <div class="form-wrapper">
+              <div class="form-header">
+                <h3>Sampaikan Kritik dan Saran</h3>
+              </div>
+
+              
+<form id="batikaContactForm">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Nama Lengkap</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Masukkan nama lengkap"
+          required
+        >
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Alamat Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Masukkan alamat email"
+          required
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Tulis Kritik atau Saran Anda</label>
+    <input
+      type="text"
+      name="subject"
+      placeholder="Judul kritik atau saran"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="projectMessage">Kirim Masukan</label>
+    <textarea
+      name="message"
+      id="projectMessage"
+      rows="5"
+      placeholder="Tuliskan kritik dan saran Anda di sini..."
+      required
+    ></textarea>
+  </div>
+
+  <div class="my-3">
+    <div id="formLoading" style="display:none;">
+      Mengirim pesan...
+    </div>
+
+    <div id="formError" style="display:none; color:red;">
+      Pesan gagal dikirim. Silakan coba kembali.
+    </div>
+
+    <div id="formSuccess" style="display:none; color:green;">
+      Kritik dan saran berhasil dikirim. Terima kasih!
+    </div>
+  </div>
+
+  <button type="submit" class="submit-btn" id="submitBtn">
+    <span>Kirim</span>
+    <i class="bi bi-arrow-right"></i>
+  </button>
+
+</form>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-12 col-lg-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Batika</span>
+          </a>
+          <p style="text-align: justify;">Batika Bag adalah UMKM asal Yogyakarta yang menghadirkan koleksi tas batik dalam berbagai model dan motif. Jelajahi katalog kami untuk melihat pilihan tas dan pouch, atau hubungi kami untuk menanyakan stok dan pemesanan.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.facebook.com/BatikaBag?locale=id_ID" aria-label="Facebook Batika"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/batika_bag/" aria-label="Instagram Batika"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+            <a href="https://wa.me/6285800288414" aria-label="WhatsApp Batika"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://www.threads.com/@batika_bag"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Threads Batika">
+  <i class="bi bi-threads" aria-hidden="true"></i>
+</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5 offset-lg-1 footer-contact text-start">
+          <h4>Contact Us</h4>
+          <p>Jl. Matraman No.4-24, Nanggulan, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+          <p class="mt-4"><strong>No. Telp:</strong> <span>+6285800288414</span></p>
+          <p><strong>Email:</strong> <span>butikbareng@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Batika</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">D3</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+  // Inisialisasi EmailJS
+  emailjs.init({
+    publicKey: "Mfr3SiLkYM3Gpeb_d"
+  });
+
+  // Proses pengiriman kritik dan saran
+  document.getElementById("batikaContactForm")
+    .addEventListener("submit", function(event) {
+
+      event.preventDefault();
+
+      const form = this;
+      const button = document.getElementById("submitBtn");
+      const loading = document.getElementById("formLoading");
+      const error = document.getElementById("formError");
+      const success = document.getElementById("formSuccess");
+
+      loading.style.display = "block";
+      error.style.display = "none";
+      success.style.display = "none";
+
+      button.disabled = true;
+
+      emailjs.sendForm(
+        "service_pflcrnf",
+        "template_hner5vo",
+        form
+      )
+      .then(function(response) {
+
+        loading.style.display = "none";
+        success.style.display = "block";
+
+        form.reset();
+
+        button.disabled = false;
+
+      })
+      .catch(function(errorResponse) {
+
+        loading.style.display = "none";
+        error.style.display = "block";
+
+        console.error("EmailJS Error:", errorResponse);
+
+        button.disabled = false;
+
+      });
+
+    });
+</script>
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
